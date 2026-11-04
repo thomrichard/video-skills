@@ -1,0 +1,10 @@
+[
+  {"mot": 0, "sfx": "pop", "gain": 0.3, "decalage": 0.08},
+  {"mot": 3, "sfx": "click", "gain": 0.7},
+  {"mot": 3, "sfx": "impact-bass-1", "gain": 0.5},
+  {"mot": 5, "a": 7, "inst": "whoosh", "gain": 0.24},
+  {"mot": 9, "sfx": "click", "gain": 0.6},
+  {"mot": 12, "note": "D5", "inst": "pluck", "gain": 0.32},
+  {"mot": 12, "note": "F5", "inst": "pluck", "gain": 0.32, "decalage": 0.1},
+  {"mot": 12, "note": "A5", "inst": "pluck", "gain": 0.32, "decalage": 0.2}
+]

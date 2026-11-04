@@ -1,0 +1,28 @@
+/* La marque : remplace ces valeurs par la charte de la vidéo.
+   Une police embarquée rend le rendu fiable : mets ses fichiers dans assets/ et déclare-les ici avec @font-face. */
+:root {
+  --fond: #11141A;
+  --texte: #F5F5F2;
+  --accent: #F2B84B;
+  --surface: #20252E;
+  --police: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.ecran { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; overflow: hidden; background: var(--fond); color: var(--texte); font-family: var(--police); line-height: 1; }
+.ecran * { position: absolute; }
+.ecran span, .ecran svg path { position: static; }
+.mec { inset: 0; }
+.accent { color: var(--accent); }
+
+.mot { font-size: 280px; font-weight: 800; letter-spacing: -.03em; }
+.pastille { width: 130px; height: 130px; border-radius: 50%; background: var(--accent); color: var(--fond); font-size: 68px; font-weight: 800; display: flex; align-items: center; justify-content: center; }
+.fenetre { background: var(--surface); border-radius: 18px; }
+.bouton { padding: 26px 40px; background: var(--accent); color: var(--fond); font-size: 40px; font-weight: 700; border-radius: 12px; }
+.ligne { padding: 20px 28px; font-size: 44px; font-weight: 500; }
+
+.curseur { left: 0; top: 0; width: 58px; height: 81px; transform-origin: 0 0; }
+.curseur svg { left: 0; top: 0; width: 100%; height: 100%; }
+.curseur path { fill: #fff; stroke: #111; stroke-width: 3; stroke-linejoin: round; }
+.anneau { width: 80px; height: 80px; margin: -40px 0 0 -40px; border-radius: 50%; border: 8px solid var(--accent); opacity: 0; }
+.cadre { box-sizing: border-box; border: 5px solid var(--accent); border-radius: 8px; }
+.barre { left: -2%; top: 52%; width: 104%; height: 10px; background: var(--accent); transform-origin: 0 50%; }
