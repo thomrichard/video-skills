@@ -4,7 +4,7 @@ Des skills pour faire de la vidéo avec Claude et HyperFrames.
 
 ## Télécharger
 
-[Télécharger le zip](https://github.com/thomrichard/video-skills/archive/refs/heads/main.zip)
+[Télécharger le zip](https://codeload.github.com/thomrichard/video-skills/zip/refs/heads/main)
 
 ## Les skills
 
